@@ -2,6 +2,7 @@
   "name": "intro-node",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^6.1.0",
     "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "nodemon": "^3.1.9",
     "prisma": "^6.1.0"
   }
