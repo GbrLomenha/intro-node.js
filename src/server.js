@@ -1,9 +1,7 @@
-const htpp = require('http')
+import { express } from "node:express";
 
-const server = http.createServer((req, res) => {
-    console.log(req)
-})
+const app = express();
 
-export const app = server.listen(3000, () => {
-    console.log('Server is running on port 3000')
-})
+app.listen(3000, () => {
+    console.log("Server running on port 3000");
+}); 
